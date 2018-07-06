@@ -21,7 +21,7 @@ public class Main {
         hallway = new Room("in the hallway. It's still hot");
         classroom = new Room("in class. You are eaten by a grue");
 
-        outside.setExits("Science hallway", hallway);
+        outside.setExits("hallway", hallway);
         hallway.setExits("outside", outside);
         hallway.setExits("classroom", classroom);
         //classroom.setExit("classroom", classroom);
