@@ -27,6 +27,7 @@ public class Synchro {
 class Count {
     int count;
 
+    //public void increment() {
     public synchronized void increment() {
         count++;
     }
